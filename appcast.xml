@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Blue Oak Cost Control Updates</title>
-    <link>https://raw.githubusercontent.com/Hmorph047/blue-oak-cost-control-updates/main/appcast.xml</link>
-    <description>Signed stable updates for Blue Oak Cost Control.</description>
-    <language>en</language>
-  </channel>
-</rss>
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Blue Oak Cost Control</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 29 Aug 2026 10:05:09 +0100</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Blue Oak Cost Control 1.0.0
+
+The first production release of Blue Oak Cost Control.
+
+- Guided, skippable startup tour covering the complete workflow.
+- Project setup with configurable VAT, labour rates, historic project/person rates, and generated project codes.
+- Professional Greek proposal builder with photographs and PDF export.
+- Accepted-proposal locking, linked change orders, and approved variations.
+- Payment milestones, deposits, retention, and receipts tracking.
+- Contract value, committed costs, forecast final cost, and expected gross-margin reporting.
+- Invoice and receipt photographs attached directly to cost records.
+- Encrypted local snapshots after changes and on close, plus portable exports.
+- Built-in signed update checking for future releases.
+]]></description>
+            <enclosure url="https://github.com/Hmorph047/blue-oak-cost-control-updates/releases/download/v1.0.0/Blue%20Oak%20Cost%20Control-1.0.0.zip" length="7139465" type="application/octet-stream" sparkle:edSignature="4KU55v5elzLn4E8u6vI0UfJ+aP3T8w+UWDHQYoq1nv9I8Vlxd+0TCUCIe0PUiiS6mz3AkbLChHbw8mRINJAgBQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: f94LqDFIoHeMUIjP/I6hqjpj+5h7hwfPn9y0SO/0LHrGSqv3A7LLFN3r2m/g4eitT6Hnc5af+915vx0+J9Z1Dg==
+length: 1949
+-->
